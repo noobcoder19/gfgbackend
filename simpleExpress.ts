@@ -8,4 +8,5 @@ router.get("/a",(request, response) => response.send("api a is invoked"));
 
 app.use(router);
 
-app.listen(400, () => console.log("simple express server created"));
+app.listen(process.env.PORT || 3000
+    , () => console.log("simple express server created"));

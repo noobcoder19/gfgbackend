@@ -10,4 +10,5 @@ router.get("/a",(context) => context.response.body="api a is invoked");
 
 app.use(router.routes());
 
-app.listen(3000, () => console.log("simple koa server created"));
+app.listen(process.env.PORT || 3000
+    , () => console.log("simple koa server created"));

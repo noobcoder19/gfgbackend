@@ -8,4 +8,5 @@ const app = http.createServer((request, response) => {
     response.end();
 })
 
-app.listen(4000, () => console.log("simple node server created"));
+app.listen(process.env.PORT || 3000
+    , () => console.log("simple node server created"));
