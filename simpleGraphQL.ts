@@ -18,7 +18,7 @@ async function main() {
     app.use(router.routes());
     app.use(cors());
 
-    app.listen(4000, () => console.log("koa server graph ql created"));
+    app.listen(process.env.PORT || 4000, () => console.log("koa server graph ql created"));
 
 }
 
