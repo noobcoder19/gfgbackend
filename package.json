@@ -10,7 +10,7 @@
     "simpleDb": "ts-node-dev simpleDb.ts",
     "simpleOrm": "ts-node-dev simpleOrm.ts",
     "simpleGraphQL": "ts-node-dev simpleGraphQL.ts",
-    "start": "ts-node-dev simpleGraph.ts"
+    "start": "ts-node-dev simpleGraphQL.ts"
   },
   "author": "",
   "license": "ISC",
